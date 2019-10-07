@@ -4,27 +4,27 @@
 * [Overview](#overview);
 * [Biomes](#biomes);
 * [Sections](#sections):
- * [Workshops](#workshops);
- * [Sleeping Quarters](#sleepingquarters);
- * [Restricted Areas](#restrictedareas);
+  * [Workshops](#workshops);
+  * [Sleeping Quarters](#sleepingquarters);
+  * [Restricted Areas](#restrictedareas);
 * [Tools](#tools);
 * [Mobs](#mobs);
 * [Books](#books);
 * [Drops / Loot](#dropsloot);
 * [Decorations](#decorations);
 * [Integrations](#integrations):
- * [Thaumcraft](#thaumcraft);
- * [Astral Sorcery](#astralsorcery);
- * [Waystones](#waystones);
- * [MystCraft](#mystcraft);
- * [Soulus](#soulus);
- * [Bibliocraft / Inspirations](#bibliocraftinspirations);
- * [Iron Age Furniture](#ironagefurniture);
- * [Iron Age Architecture](#ironagearchitecture);
- * [Better Portals](#betterportals);
- * [Tinker's Construct](#tconstruct);
- * [Construct's Armory](#conarm);
- * [Extra Golems](#extragolems);
+  * [Thaumcraft](#thaumcraft);
+  * [Astral Sorcery](#astralsorcery);
+  * [Waystones](#waystones);
+  * [MystCraft](#mystcraft);
+  * [Soulus](#soulus);
+  * [Bibliocraft / Inspirations](#bibliocraftinspirations);
+  * [Iron Age Furniture](#ironagefurniture);
+  * [Iron Age Architecture](#ironagearchitecture);
+  * [Better Portals](#betterportals);
+  * [Tinker's Construct](#tconstruct);
+  * [Construct's Armory](#conarm);
+  * [Extra Golems](#extragolems);
 * [Unsorted Notes](#unsortednotes);
 
 ## Overview:<a name="overview"></a>
@@ -61,40 +61,40 @@ and since bookshelfs can't be mined without making the mobs aggro, maybe a works
 We could have workshops of varying sizes, the bigger the better the loot
 Well, if we make sure mobs don't spawn in those sections, and seeing as workshops would have gates or doors, that should be feasible
 
- * `Potion Brewery`;
- * `Potion Distillery`;
- * `Enchantment Lab`;
+  * `Potion Brewery`;
+  * `Potion Distillery`;
+  * `Enchantment Lab`;
     > SkyBladeToday at 5:25 PM
  oh there should be an enchanting station section (a rare section with an enchanting table).
 
     > YaibaToKenToday at 5:26 PM
 Oh yes! Perhaps with some enchanted books as well
- * `Book Binding Atelier`;
- * `Tannery` (Leather Works Integration);
+  * `Book Binding Atelier`;
+  * `Tannery` (Leather Works Integration);
     > YaibaToKenToday at 5:08 PM
 I was thinking more about Leather Works for example
 
     > YaibaToKenToday at 5:08 PM
 having a workshop where you can tan leather and process it further would make sense, as it provides a source of materials to make books
 
- * `Thaumaturge's Study` (Thaumcraft Integration);
- * `Astral Observatory` (Astral Sorcery Integration);
- * `Misty Library` (MystCraft Integration);
- * `Misty Binding Atelier` (MystCraft Integration);
- * `Soul Workshop` (Soulus Integration);
- * `Golem Workshop` (Extra Golems Integration);
+  * `Thaumaturge's Study` (Thaumcraft Integration);
+  * `Astral Observatory` (Astral Sorcery Integration);
+  * `Misty Library` (MystCraft Integration);
+  * `Misty Binding Atelier` (MystCraft Integration);
+  * `Soul Workshop` (Soulus Integration);
+  * `Golem Workshop` (Extra Golems Integration);
     > YaibaToKenToday at 5:24 PM
 Yeah
 Oh, lost golem workshop sections :stuck_out_tongue: with a thaumcraft variant.
 
- * `Tool / Armour Workshop / Smithy` (Tinker's Construct / Construct's Armory Integration);
+  * `Tool / Armour Workshop / Smithy` (Tinker's Construct / Construct's Armory Integration);
     > YaibaToKenToday at 5:27 PM
 A toolsmith section for TiC and ConArm users and a vanilla variant
 
 - Sleeping Quarters:<a name="sleepingquarters"></a>
- * `Abandoned Camp` (Inspirations Integration);
- * `Ruined Inn`;
- * `Librarian Dorm`;
+  * `Abandoned Camp` (Inspirations Integration);
+  * `Ruined Inn`;
+  * `Librarian Dorm`;
 
 - Restricted Areas:<a name="restrictedareas"></a>
   > SkyBladeToday at 4:55 PM
@@ -112,7 +112,7 @@ so the chest with the key always spawned within a certain range of the gate
   > YaibaToKenToday at 4:58 PM
 Yup, the section with the key could even have some noticeable details, just to exclaim there's something there
 
- * ~~Placeholder~~;
+  * ~~Placeholder~~;
 
 Sections control:
 - Drop / Loot selection;
@@ -167,29 +167,29 @@ All of the `mods` mentioned below have a [1.12.2 version](https://minecraft.game
 - `Research Notes`;
 - `Greatwood / Silverwood Library Sections`:
   * Mobs:
-   * ~~Placeholder~~;
+    * ~~Placeholder~~;
   * Drops / Loot:
-   * ~~Placeholder~~;
-  * `Greatwood Style`;
-  * `Silverwood Style`;
+    * ~~Placeholder~~;
+    * `Greatwood Style`;
+    * `Silverwood Style`;
 - `Eldritch Library Sections`:
   * Mobs:
-   * ~~Placeholder~~;
+    * ~~Placeholder~~;
   * Drops / Loot:
-   * ~~Placeholder~~;
+    * ~~Placeholder~~;
   * `Eldritch Style`;
 - `Crimson Library Sections`:
   * Mobs:
-   * ~~Placeholder~~;
+    * ~~Placeholder~~;
   * Drops / Loot:
-   * ~~Placeholder~~;
+    * ~~Placeholder~~;
   * `Crimson Style`;
 
 ### [Astral Sorcery](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery) <sup><sub>([GitHub](https://github.com/HellFirePvP/AstralSorcery))</sub></sup> :<a name="astralsorcery"></a>
 - `Constellation Papers`;
 - `Marble Library Sections`:
   * Drops / Loot:
-   * ~~Placeholder~~;
+    * ~~Placeholder~~;
   * `Astral Sorcery Marble Style`;
 
 ### [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) <sup><sub>([GitHub](https://github.com/blay09/Waystones))</sub></sup> :<a name="waystones"></a>
