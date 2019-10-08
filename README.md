@@ -25,27 +25,54 @@
   * [Tinker's Construct](#tconstruct);
   * [Construct's Armory](#conarm);
   * [Extra Golems](#extragolems);
+  * [Leather Works](#leatherworks);
 * [Unsorted Notes](#unsortednotes);
 
 ## Overview:<a name="overview"></a>
-`Labyrinthic dimension`, built in the style of a [`library`](https://github.com/YaibaToKen/The-Great-Library), by randomly picking a section for each chunk or set of chunks.
+`Labyrinthic dimension`, built in the style of a [`library`](https://en.wikipedia.org/wiki/Library_of_Alexandria), by randomly picking a section for each chunk or set of chunks.
 If possible, integration with [Cubic Chunks](https://www.curseforge.com/minecraft/mc-mods/opencubicchunks) should be provided, as it will give new depth (pun intended) to the dimension, essentially making it `truly infinite`.
 
+> Lord SheogorathYesterday at 9:20 PM
+hrm... I'd like to suggest a possible method for the world-gen that should keep things "random" and also fun - its something I've been working on the idea for... basically each "room" and the world in general is generated in sections, with each section having "part connections" that determine what can come next.
+
+> Lord SheogorathYesterday at 9:22 PM
+I've been working on the idea, myself, for a "dungeon dimension" that just randomly and infinitely generates as you explore.
+something of a cross between the classic "Moria" generation and the even more classic "space partitioning" generation of Rogue and Nethack.
+
+> Lord SheogorathYesterday at 9:25 PM
+anyway... my idea for the gen is that there are a number of pre-defined "pieces" that can be linked together and based on what the RNG provides and what the current "piece" is defines what the next "piece" will be.
+
 Integration with other mods could provide new content in the form of:
-- New Sections / Biomes;
-- New Drops / Loot;
-- New Mob Spawners;
-- New Traps / Contraptions;
+- New `Sections`;
+- New `Section Styles` / `Section Themes`;
+- New `Biomes`;
+- New `Drops` / `Loot`;
+- New `Mobs` / `Mob Spawners`;
+- New `Traps` / `Contraptions`;
+
+This is not an exhaustive list and add-ons are free to provide further content.
 
 ## Biomes:<a name="biomes"></a>
+`Biomes` are given a generous amount of control over what kind of `features` the `chunk` will display. From picking what `styles` the `sections` can adopt, to their `themes` and even what `type of sections` are available. This includes defining, white-listing and black-listing `structures`, `mobs` or even `mob spawners`.
+
 Biomes control:
-- Section style;
-- Section type;
+- `Section Style`;
+- `Section Theme`;
+- `Section Type`;
 
 ## Sections:<a name="sections"></a>
 > The sections can probably be done somewhat as json config files which means we could have expansion content packs with a bunch of sections.
 
 `Sections` should be defined through [`JSON`](https://en.wikipedia.org/wiki/JSON) files, but the [`Structure Block File Format`](https://minecraft.gamepedia.com/Structure_block_file_format) might also be a nice alternative.
+Each `file` must contain only one `section`, and these `files` can be organized in `folders` (maximum recursive depth must be defined to avoid overflow problems).
+
+### Concrete Sections:
+ Each `section` must have a `String` as an `identifier`, and lists of valid `mobs`, `mob spawners`, `structures`, `styles`, `themes`, `types` and `loot table`.
+
+These can be inherited from an `abstract section`. Certain fields can be defined as empty lists, like `mobs`, `mob spawners`, `structures` and `loot tables`.
+
+### Abstract Sections:
+`Abstract sections` contain general definitions to be used by other `sections` (including other `abstract sections`), such as `mobs`, `mob spawners`, `structures`, `styles`, `themes`, `types` and even `loot tables`. These can, unlike regular `sections`, provide a partial implementation, as their name imply.
 
 Possible Sections:
 - Workshops:<a name="workshops"></a>
@@ -223,9 +250,12 @@ Whenever possible, smaller mods should be favored over bigger ones, as that can 
 ### [Extra Golems](https://www.curseforge.com/minecraft/mc-mods/extra-golems)  <sup><sub>([GitHub](https://github.com/MinecraftModDevelopmentMods/Extra-Golems))</sub></sup> :<a name="extragolems"></a>
 - See `Sections` section above;
 
-### Unsorted Notes:<a name="unsortednotes"></a>
+### [Leather Works]() <sup><sub>([GitHub]())</sub></sup> :<a name="leatherworks"></a>
+- See `Sections` section above;
 > SkyBladeToday at 5:08 PM
 yes some nice book recipes and models with different leathers woudl be good
+
+### Unsorted Notes:<a name="unsortednotes"></a>
 
 > YaibaToKenToday at 5:09 PM
 panda's wood mod might also be nice if we could figure out a way to generate bookshelfs in Inspirations' (if the mod is loaded) or vanilla's style for all wood types
