@@ -70,6 +70,9 @@ Biomes control:
 - `Section Style`;
 - `Section Theme`;
 - `Section Type`;
+- `Section Structures`;
+- `Section Mobs`;
+- `Section Mob Spawners`;
 
 ## Sections:<a name="sections"></a>
 
