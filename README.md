@@ -16,7 +16,7 @@
   * [Thaumcraft](#thaumcraft);
   * [Astral Sorcery](#astralsorcery);
   * [Waystones](#waystones);
-  * [MystCraft](#mystcraft);
+  * [Mystcraft](#mystcraft);
   * [Soulus](#soulus);
   * [Bibliocraft / Inspirations](#bibliocraftinspirations);
   * [Iron Age Furniture](#ironagefurniture);
@@ -195,8 +195,13 @@ All of the `mods` mentioned below have a [1.12.2 version](https://minecraft.game
 ### [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) <sup><sub>([GitHub](https://github.com/blay09/Waystones))</sub></sup> :<a name="waystones"></a>
 - Randomly placed `Waystones` with `Section` names being used as part of the `Waypoint` name;
 
-### [MystCraft](https://www.curseforge.com/minecraft/mc-mods/mystcraft) :<a name="mystcraft"></a>
+### [Mystcraft](https://www.curseforge.com/minecraft/mc-mods/mystcraft) :<a name="mystcraft"></a>
 - > Picture sections of the Library with books for unknown worlds, full of untold stories. Or even just groups of pages, randomly strewn around.;
+
+#### Add-ons:
+- [`Linking Through The Ages`](https://www.curseforge.com/minecraft/mc-mods/ltta);
+- [`More Mystcraft`](https://www.curseforge.com/minecraft/mc-mods/more-mystcraft);
+- [`Pages`](https://www.curseforge.com/minecraft/mc-mods/pages);
 
 ### [Soulus](https://www.curseforge.com/minecraft/mc-mods/soulus) <sup><sub>([GitHub](https://github.com/Yuudaari/soulus))</sub></sup> :<a name="soulus"></a>
 - > We could have summoners (the soulus version of a spawner), with randomly filled soul books in shelves.;
